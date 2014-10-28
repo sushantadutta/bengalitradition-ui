@@ -25,7 +25,7 @@
 
 <!-- Fonts START -->
 <link
-	href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all"
+	href="resources/css/vendor/fonts.css"
 	rel="stylesheet" type="text/css">
 <!-- Fonts END -->
 
@@ -40,7 +40,7 @@
 <link href="resources/css/uniform.default.css" rel="stylesheet"
 	type="text/css">
 <link
-	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+	href="resources/css/jquery-ui.css"
 	rel="stylesheet" type="text/css">
 <!-- for slider-range -->
 <link href="resources/css/rateit.css" rel="stylesheet" type="text/css">
