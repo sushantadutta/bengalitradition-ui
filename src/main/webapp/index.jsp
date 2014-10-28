@@ -9,9 +9,9 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<meta content="Metronic Shop UI description" name="description">
-<meta content="Metronic Shop UI keywords" name="keywords">
-<meta content="keenthemes" name="author">
+<meta content="Bengali Tradition Shop UI description" name="description">
+<meta content="Bengali Tradition Shop UI keywords" name="keywords">
+<meta content="Bengali Tradition" name="author">
 
 <meta property="og:site_name" content="-CUSTOMER VALUE-">
 <meta property="og:title" content="-CUSTOMER VALUE-">
@@ -60,24 +60,6 @@
 
 <!-- Body BEGIN -->
 <body class="ecommerce">
-	<!-- BEGIN STYLE CUSTOMIZER -->
-	<!-- <div class="color-panel hidden-sm">
-		<div class="color-mode-icons icon-color"></div>
-		<div class="color-mode-icons icon-color-close"></div>
-		<div class="color-mode">
-			<p>THEME COLOR</p>
-			<ul class="inline">
-				<li class="color-red current color-default" data-style="red"></li>
-				<li class="color-blue" data-style="blue"></li>
-				<li class="color-green" data-style="green"></li>
-				<li class="color-orange" data-style="orange"></li>
-				<li class="color-gray" data-style="gray"></li>
-				<li class="color-turquoise" data-style="turquoise"></li>
-			</ul>
-		</div>
-	</div> -->
-	<!-- END BEGIN STYLE CUSTOMIZER -->
-
 	<!-- BEGIN TOP BAR -->
 	<div class="pre-header">
 		<div class="container">
@@ -85,13 +67,7 @@
 				<!-- BEGIN TOP BAR LEFT PART -->
 				<div class="col-md-6 col-sm-6 additional-shop-info">
 					<ul class="list-unstyled list-inline">
-						<li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
-						<!-- BEGIN CURRENCIES -->
-						<li class="shop-currencies"><a href="javascript:void(0);">€</a>
-							<a href="javascript:void(0);">£</a> <a href="javascript:void(0);"
-							class="current">$</a></li>
-						<!-- END CURRENCIES -->
-						<!-- BEGIN LANGS -->
+						<li><i class="fa fa-phone"></i><span>18002101298</span></li>
 						<li class="langs-block"><a href="javascript:void(0);"
 							class="current">English </a>
 							<div class="langs-block-others-wrapper">
@@ -155,32 +131,6 @@
 			<!-- BEGIN NAVIGATION -->
 			<div class="header-navigation">
 				<ul>
-					<!-- <li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" data-target="#" href="#"> Woman </a> BEGIN DROPDOWN MENU
-						<ul class="dropdown-menu">
-							<li class="dropdown-submenu"><a
-								href="shop-product-list.html">Hi Tops <i
-									class="fa fa-angle-right"></i></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="shop-product-list.html">Second Level Link</a></li>
-									<li><a href="shop-product-list.html">Second Level Link</a></li>
-									<li class="dropdown-submenu"><a class="dropdown-toggle"
-										data-toggle="dropdown" data-target="#" href="#"> Second
-											Level Link <i class="fa fa-angle-right"></i>
-									</a>
-										<ul class="dropdown-menu">
-											<li><a href="shop-product-list.html">Third Level
-													Link</a></li>
-											<li><a href="shop-product-list.html">Third Level
-													Link</a></li>
-											<li><a href="shop-product-list.html">Third Level
-													Link</a></li>
-										</ul></li>
-								</ul></li>
-							<li><a href="shop-product-list.html">Running Shoes</a></li>
-							<li><a href="shop-product-list.html">Jackets and Coats</a></li>
-						</ul> END DROPDOWN MENU
-					</li> -->
 					<li class="dropdown dropdown-megamenu"><a
 						class="dropdown-toggle" data-toggle="dropdown" data-target="#"
 						href="#"> Woman </a>
@@ -232,25 +182,6 @@
 												<li><a href="shop-product-list.html">Bottoms</a></li>
 											</ul>
 										</div>
-										<!-- <div class="col-md-12 nav-brands">
-											<ul>
-												<li><a href="shop-product-list.html"><img
-														title="esprit" alt="esprit"
-														src="../../assets/frontend/pages/img/brands/esprit.jpg"></a></li>
-												<li><a href="shop-product-list.html"><img
-														title="gap" alt="gap"
-														src="../../assets/frontend/pages/img/brands/gap.jpg"></a></li>
-												<li><a href="shop-product-list.html"><img
-														title="next" alt="next"
-														src="../../assets/frontend/pages/img/brands/next.jpg"></a></li>
-												<li><a href="shop-product-list.html"><img
-														title="puma" alt="puma"
-														src="../../assets/frontend/pages/img/brands/puma.jpg"></a></li>
-												<li><a href="shop-product-list.html"><img
-														title="zara" alt="zara"
-														src="../../assets/frontend/pages/img/brands/zara.jpg"></a></li>
-											</ul>
-										</div> -->
 									</div>
 								</div>
 							</li>
@@ -266,8 +197,8 @@
 											<div class="product-item">
 												<div class="pi-img-wrapper">
 													<a href="shop-item.html"><img
-														src="../../assets/frontend/pages/img/products/model4.jpg"
-														class="img-responsive" alt="Berry Lace Dress"></a>
+														src="resources/images/model4.jpg" class="img-responsive"
+														alt="Berry Lace Dress"></a>
 												</div>
 												<h3>
 													<a href="shop-item.html">Berry Lace Dress</a>
@@ -280,8 +211,8 @@
 											<div class="product-item">
 												<div class="pi-img-wrapper">
 													<a href="shop-item.html"><img
-														src="../../assets/frontend/pages/img/products/model3.jpg"
-														class="img-responsive" alt="Berry Lace Dress"></a>
+														src="resources/images/model3.jpg" class="img-responsive"
+														alt="Berry Lace Dress"></a>
 												</div>
 												<h3>
 													<a href="shop-item.html">Berry Lace Dress</a>
@@ -294,8 +225,8 @@
 											<div class="product-item">
 												<div class="pi-img-wrapper">
 													<a href="shop-item.html"><img
-														src="../../assets/frontend/pages/img/products/model7.jpg"
-														class="img-responsive" alt="Berry Lace Dress"></a>
+														src="resources/images/model7.jpg" class="img-responsive"
+														alt="Berry Lace Dress"></a>
 												</div>
 												<h3>
 													<a href="shop-item.html">Berry Lace Dress</a>
@@ -308,8 +239,8 @@
 											<div class="product-item">
 												<div class="pi-img-wrapper">
 													<a href="shop-item.html"><img
-														src="../../assets/frontend/pages/img/products/model4.jpg"
-														class="img-responsive" alt="Berry Lace Dress"></a>
+														src="resources/images/model4.jpg" class="img-responsive"
+														alt="Berry Lace Dress"></a>
 												</div>
 												<h3>
 													<a href="shop-item.html">Berry Lace Dress</a>
@@ -408,27 +339,6 @@
 								<li><a href="shop-product-list.html"><i
 										class="fa fa-angle-right"></i> T-Shirts</a></li>
 							</ul></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Kids</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Accessories</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Sports</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Brands</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Electronics</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Home & Garden</a></li>
-						<li class="list-group-item clearfix"><a
-							href="shop-product-list.html"><i class="fa fa-angle-right"></i>
-								Custom Link</a></li>
 					</ul>
 
 					<div class="sidebar-filter margin-bottom-25">
@@ -446,37 +356,6 @@
 						</p>
 						<div id="slider-range"></div>
 					</div>
-
-					<!-- <div class="sidebar-products clearfix">
-						<h2>Bestsellers</h2>
-						<div class="item">
-							<a href="shop-item.html"><img
-								src="../../assets/frontend/pages/img/products/k1.jpg"
-								alt="Some Shoes in Animal with Cut Out"></a>
-							<h3>
-								<a href="shop-item.html">Some Shoes in Animal with Cut Out</a>
-							</h3>
-							<div class="price">$31.00</div>
-						</div>
-						<div class="item">
-							<a href="shop-item.html"><img
-								src="../../assets/frontend/pages/img/products/k4.jpg"
-								alt="Some Shoes in Animal with Cut Out"></a>
-							<h3>
-								<a href="shop-item.html">Some Shoes in Animal with Cut Out</a>
-							</h3>
-							<div class="price">$23.00</div>
-						</div>
-						<div class="item">
-							<a href="shop-item.html"><img
-								src="../../assets/frontend/pages/img/products/k3.jpg"
-								alt="Some Shoes in Animal with Cut Out"></a>
-							<h3>
-								<a href="shop-item.html">Some Shoes in Animal with Cut Out</a>
-							</h3>
-							<div class="price">$86.00</div>
-						</div>
-					</div> -->
 				</div>
 				<!-- END SIDEBAR -->
 				<!-- BEGIN CONTENT -->
@@ -528,10 +407,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model1.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model1.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model1.jpg"
+										<a href="resources/images/model1.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -549,10 +428,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model2.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model2.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model2.jpg"
+										<a href="resources/images/model2.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -570,10 +449,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model6.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model6.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model6.jpg"
+										<a href="resources/images/model6.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -593,10 +472,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model4.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model4.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model4.jpg"
+										<a href="resources/images/model4.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -614,10 +493,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model5.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model5.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model5.jpg"
+										<a href="resources/images/model5.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -636,10 +515,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model3.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model3.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model3.jpg"
+										<a href="resources/images/model3.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -659,10 +538,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model7.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model7.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model7.jpg"
+										<a href="resources/images/model7.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -680,10 +559,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model1.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model1.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model1.jpg"
+										<a href="resources/images/model1.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -701,10 +580,10 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-item">
 								<div class="pi-img-wrapper">
-									<img src="../../assets/frontend/pages/img/products/model2.jpg"
-										class="img-responsive" alt="Berry Lace Dress">
+									<img src="resources/images/model2.jpg" class="img-responsive"
+										alt="Berry Lace Dress">
 									<div>
-										<a href="../../assets/frontend/pages/img/products/model2.jpg"
+										<a href="resources/images/model2.jpg"
 											class="btn btn-default fancybox-button">Zoom</a> <a
 											href="#product-pop-up"
 											class="btn btn-default fancybox-fast-view">View</a>
@@ -822,7 +701,7 @@
 				<!-- BEGIN PAYMENTS -->
 				<div class="col-md-6 col-sm-6">
 					<ul class="list-unstyled list-inline pull-right">
-
+						<li></li>
 					</ul>
 				</div>
 				<!-- END PAYMENTS -->
@@ -837,16 +716,15 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-6 col-xs-3">
 					<div class="product-main-image">
-						<img src="../../assets/frontend/pages/img/products/model7.jpg"
+						<img src="resources/images/model7.jpg"
 							alt="Cool green dress with red bell" class="img-responsive">
 					</div>
 					<div class="product-other-images">
 						<a href="#" class="active"><img alt="Berry Lace Dress"
-							src="../../assets/frontend/pages/img/products/model3.jpg"></a>
-						<a href="#"><img alt="Berry Lace Dress"
-							src="../../assets/frontend/pages/img/products/model4.jpg"></a>
-						<a href="#"><img alt="Berry Lace Dress"
-							src="../../assets/frontend/pages/img/products/model5.jpg"></a>
+							src="resources/images/model3.jpg"></a> <a href="#"><img
+							alt="Berry Lace Dress" src="resources/images/model4.jpg"></a> <a
+							href="#"><img alt="Berry Lace Dress"
+							src="resources/images/model5.jpg"></a>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-9">
@@ -897,7 +775,10 @@
 		</div>
 	</div>
 	<!-- END fast view of a product -->
-
+	<!-- <div id="topcontrol" title="Scroll Back to Top"
+		style="position: fixed; bottom: 10px; right: 10px; opacity: 1; cursor: pointer;">
+		<img src="resources/images/up.png" style="width: 40px; height: 40px">
+	</div> -->
 	<!-- Load javascripts at bottom, this will reduce page load time -->
 	<!-- BEGIN CORE PLUGINS(REQUIRED FOR ALL PAGES) -->
 	<!--[if lt IE 9]>
@@ -925,8 +806,8 @@
 	<script src="resources/js/vendor/bootstrap.touchspin.js"
 		type="text/javascript"></script>
 	<!-- Quantity -->
-	<script src="resources/js/vendor/jquery.uniform.min.js"
-		type="text/javascript"></script>
+	<!-- <script src="resources/js/vendor/jquery.uniform.min.js"
+		type="text/javascript"></script> -->
 	<script src="resources/js/vendor/jquery.rateit.js"
 		type="text/javascript"></script>
 	<script src="resources/js/vendor/jquery-ui.js" type="text/javascript"></script>
@@ -954,12 +835,13 @@
 			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
 			a.async = 1;
 			a.src = g;
-			m.parentNode.insertBefore(a, m)
+			m.parentNode.insertBefore(a, m);
 		})(window, document, 'script',
 				'//www.google-analytics.com/analytics.js', 'ga');
 		ga('create', 'UA-37564768-1', 'keenthemes.com');
 		ga('send', 'pageview');
 	</script>
+
 </body>
 
 <!-- END BODY -->
