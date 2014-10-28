@@ -37,7 +37,8 @@
 <!-- Page level plugin styles START -->
 <link href="resources/css/vendor/jquery.fancybox.css" rel="stylesheet">
 <link href="resources/css/owl.carousel.css" rel="stylesheet">
-<link href="resources/css/uniform.default.css" rel="stylesheet" type="text/css">
+<link href="resources/css/uniform.default.css" rel="stylesheet"
+	type="text/css">
 <link
 	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
 	rel="stylesheet" type="text/css">
@@ -48,7 +49,8 @@
 <!-- Theme styles START -->
 <link href="resources/css/components.css" rel="stylesheet">
 <link href="resources/css/style.css" rel="stylesheet">
-<link href="resources/css/style-shop.css" rel="stylesheet" type="text/css">
+<link href="resources/css/style-shop.css" rel="stylesheet"
+	type="text/css">
 <link href="resources/css/style-responsive.css" rel="stylesheet">
 <link href="resources/css/red.css" rel="stylesheet" id="style-color">
 <link href="resources/css/custom.css" rel="stylesheet">
@@ -58,7 +60,24 @@
 
 <!-- Body BEGIN -->
 <body class="ecommerce">
-	
+	<!-- BEGIN STYLE CUSTOMIZER -->
+	<!-- <div class="color-panel hidden-sm">
+		<div class="color-mode-icons icon-color"></div>
+		<div class="color-mode-icons icon-color-close"></div>
+		<div class="color-mode">
+			<p>THEME COLOR</p>
+			<ul class="inline">
+				<li class="color-red current color-default" data-style="red"></li>
+				<li class="color-blue" data-style="blue"></li>
+				<li class="color-green" data-style="green"></li>
+				<li class="color-orange" data-style="orange"></li>
+				<li class="color-gray" data-style="gray"></li>
+				<li class="color-turquoise" data-style="turquoise"></li>
+			</ul>
+		</div>
+	</div> -->
+	<!-- END BEGIN STYLE CUSTOMIZER -->
+
 	<!-- BEGIN TOP BAR -->
 	<div class="pre-header">
 		<div class="container">
@@ -66,7 +85,12 @@
 				<!-- BEGIN TOP BAR LEFT PART -->
 				<div class="col-md-6 col-sm-6 additional-shop-info">
 					<ul class="list-unstyled list-inline">
-						<li><i class="fa fa-phone"></i><span>+91943212345</span></li>
+						<li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
+						<!-- BEGIN CURRENCIES -->
+						<li class="shop-currencies"><a href="javascript:void(0);">€</a>
+							<a href="javascript:void(0);">£</a> <a href="javascript:void(0);"
+							class="current">$</a></li>
+						<!-- END CURRENCIES -->
 						<!-- BEGIN LANGS -->
 						<li class="langs-block"><a href="javascript:void(0);"
 							class="current">English </a>
@@ -109,19 +133,15 @@
 						items</a> <a href="javascript:void(0);" class="top-cart-info-value">$1260</a>
 				</div>
 				<i class="fa fa-shopping-cart"></i>
-
 				<div class="top-cart-content-wrapper">
 					<div class="top-cart-content">
-					<!-- Iterator to repeat cart items -->
-					<!-- TODO -->
 						<ul class="scroller" style="height: 250px;">
 							<li><a href="shop-item.html"><img
 									src="../../assets/frontend/pages/img/cart-img.jpg"
 									alt="Rolex Classic Watch" width="37" height="34"></a> <span
 								class="cart-content-count">x 1</span> <strong><a
-									href="shop-item.html">Benarasi Saree</a></strong> <em>11230</em> <a
+									href="shop-item.html">Rolex Classic Watch</a></strong> <em>$1230</em> <a
 								href="javascript:void(0);" class="del-goods">&nbsp;</a></li>
-							<li>
 						</ul>
 						<div class="text-right">
 							<a href="shop-shopping-cart.html" class="btn btn-default">View
@@ -135,6 +155,32 @@
 			<!-- BEGIN NAVIGATION -->
 			<div class="header-navigation">
 				<ul>
+					<!-- <li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" data-target="#" href="#"> Woman </a> BEGIN DROPDOWN MENU
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu"><a
+								href="shop-product-list.html">Hi Tops <i
+									class="fa fa-angle-right"></i></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="shop-product-list.html">Second Level Link</a></li>
+									<li><a href="shop-product-list.html">Second Level Link</a></li>
+									<li class="dropdown-submenu"><a class="dropdown-toggle"
+										data-toggle="dropdown" data-target="#" href="#"> Second
+											Level Link <i class="fa fa-angle-right"></i>
+									</a>
+										<ul class="dropdown-menu">
+											<li><a href="shop-product-list.html">Third Level
+													Link</a></li>
+											<li><a href="shop-product-list.html">Third Level
+													Link</a></li>
+											<li><a href="shop-product-list.html">Third Level
+													Link</a></li>
+										</ul></li>
+								</ul></li>
+							<li><a href="shop-product-list.html">Running Shoes</a></li>
+							<li><a href="shop-product-list.html">Jackets and Coats</a></li>
+						</ul> END DROPDOWN MENU
+					</li> -->
 					<li class="dropdown dropdown-megamenu"><a
 						class="dropdown-toggle" data-toggle="dropdown" data-target="#"
 						href="#"> Woman </a>
@@ -143,47 +189,49 @@
 								<div class="header-navigation-content">
 									<div class="row">
 										<div class="col-md-4 header-navigation-col">
-											<h4>Saree</h4>
+											<h4>Footwear</h4>
 											<ul>
-											<!-- TODO -->
-											<!-- Iterator has to be there -->
-												<li><a href="shop-product-list.html">Dhakai Jamdani</a></li>
-												<li><a href="shop-product-list.html">Benarashi</a></li>
-												<li><a href="shop-product-list.html">Silk</a></li>
-												<li><a href="shop-product-list.html">Cotton</a></li>
+												<li><a href="shop-product-list.html">Astro Trainers</a></li>
+												<li><a href="shop-product-list.html">Basketball
+														Shoes</a></li>
+												<li><a href="shop-product-list.html">Boots</a></li>
+												<li><a href="shop-product-list.html">Canvas Shoes</a></li>
+												<li><a href="shop-product-list.html">Football Boots</a></li>
+												<li><a href="shop-product-list.html">Golf Shoes</a></li>
+												<li><a href="shop-product-list.html">Hi Tops</a></li>
+												<li><a href="shop-product-list.html">Indoor and
+														Court Trainers</a></li>
 											</ul>
 										</div>
 										<div class="col-md-4 header-navigation-col">
-											<h4>Blouse</h4>
+											<h4>Clothing</h4>
 											<ul>
-											<!-- TODO -->
-											<!-- Iterator has to be there -->
 												<li><a href="shop-product-list.html">Base Layer</a></li>
 												<li><a href="shop-product-list.html">Character</a></li>
 												<li><a href="shop-product-list.html">Chinos</a></li>
 												<li><a href="shop-product-list.html">Combats</a></li>
+												<li><a href="shop-product-list.html">Cricket
+														Clothing</a></li>
+												<li><a href="shop-product-list.html">Fleeces</a></li>
+												<li><a href="shop-product-list.html">Gilets</a></li>
+												<li><a href="shop-product-list.html">Golf Tops</a></li>
 											</ul>
 										</div>
 										<div class="col-md-4 header-navigation-col">
-											<h4>Petty Coat</h4>
+											<h4>Accessories</h4>
 											<ul>
-											<!-- TODO -->
-											<!-- Iterator has to be there -->
 												<li><a href="shop-product-list.html">Belts</a></li>
 												<li><a href="shop-product-list.html">Caps</a></li>
 												<li><a href="shop-product-list.html">Gloves, Hats
 														and Scarves</a></li>
 											</ul>
 
-											<h4>Accessories</h4>
+											<h4>Clearance</h4>
 											<ul>
-											<!-- TODO -->
-											<!-- Iterator has to be there -->
 												<li><a href="shop-product-list.html">Jackets</a></li>
 												<li><a href="shop-product-list.html">Bottoms</a></li>
 											</ul>
 										</div>
-										<!-- Brand Details -->
 										<!-- <div class="col-md-12 nav-brands">
 											<ul>
 												<li><a href="shop-product-list.html"><img
@@ -206,10 +254,9 @@
 									</div>
 								</div>
 							</li>
-						</ul>
-					</li>
-					<li class="dropdown dropdown100 nav-catalogue">
-					<a	class="dropdown-toggle" data-toggle="dropdown" data-target="#"
+						</ul></li>
+					<li class="dropdown dropdown100 nav-catalogue"><a
+						class="dropdown-toggle" data-toggle="dropdown" data-target="#"
 						href="#"> New </a>
 						<ul class="dropdown-menu">
 							<li>
@@ -274,9 +321,8 @@
 									</div>
 								</div>
 							</li>
-						</ul>
-					</li>
-					
+						</ul></li>
+
 					<!-- BEGIN TOP SEARCH -->
 					<li class="menu-search"><span class="sep"></span> <i
 						class="fa fa-search search-btn"></i>
@@ -401,7 +447,7 @@
 						<div id="slider-range"></div>
 					</div>
 
-					<div class="sidebar-products clearfix">
+					<!-- <div class="sidebar-products clearfix">
 						<h2>Bestsellers</h2>
 						<div class="item">
 							<a href="shop-item.html"><img
@@ -430,7 +476,7 @@
 							</h3>
 							<div class="price">$86.00</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<!-- END SIDEBAR -->
 				<!-- BEGIN CONTENT -->
@@ -703,7 +749,7 @@
 	<div class="brands">
 		<div class="container">
 			<div class="owl-carousel owl-carousel6-brands">
-				<a href="shop-product-list.html"><img
+				<!-- <a href="shop-product-list.html"><img
 					src="../../assets/frontend/pages/img/brands/canon.jpg" alt="canon"
 					title="canon"></a> <a href="shop-product-list.html"><img
 					src="../../assets/frontend/pages/img/brands/esprit.jpg"
@@ -727,14 +773,14 @@
 					src="../../assets/frontend/pages/img/brands/puma.jpg" alt="puma"
 					title="puma"></a> <a href="shop-product-list.html"><img
 					src="../../assets/frontend/pages/img/brands/zara.jpg" alt="zara"
-					title="zara"></a>
+					title="zara"></a> -->
 			</div>
 		</div>
 	</div>
 	<!-- END BRANDS -->
 
 	<!-- BEGIN STEPS -->
-	<div class="steps-block steps-block-red">
+	<!-- <div class="steps-block steps-block-red">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 steps-block-col">
@@ -762,106 +808,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- END STEPS -->
-
-	<!-- BEGIN PRE-FOOTER -->
-	<div class="pre-footer">
-		<div class="container">
-			<div class="row">
-				<!-- BEGIN BOTTOM ABOUT BLOCK -->
-				<div class="col-md-3 col-sm-6 pre-footer-col">
-					<h2>About us</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore
-						magna aliquarm erat sit volutpat. Nostrud exerci tation
-						ullamcorper suscipit lobortis nisl aliquip commodo consequat.</p>
-					<p>Duis autem vel eum iriure dolor vulputate velit esse
-						molestie at dolore.</p>
-				</div>
-				<!-- END BOTTOM ABOUT BLOCK -->
-				<!-- BEGIN BOTTOM INFO BLOCK -->
-				<div class="col-md-3 col-sm-6 pre-footer-col">
-					<h2>Information</h2>
-					<ul class="list-unstyled">
-						<li><i class="fa fa-angle-right"></i> <a href="#">Delivery
-								Information</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="#">Customer
-								Service</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="#">Order
-								Tracking</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="#">Shipping
-								& Returns</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="contacts.html">Contact
-								Us</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="#">Careers</a></li>
-						<li><i class="fa fa-angle-right"></i> <a href="#">Payment
-								Methods</a></li>
-					</ul>
-				</div>
-				<!-- END INFO BLOCK -->
-
-				<!-- BEGIN TWITTER BLOCK -->
-				<div class="col-md-3 col-sm-6 pre-footer-col">
-					<h2 class="margin-bottom-0">Latest Tweets</h2>
-					<a class="twitter-timeline" href="https://twitter.com/twitterapi"
-						data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB"
-						data-widget-id="455411516829736961"
-						data-chrome="noheader nofooter noscrollbar noborders transparent">Loading
-						tweets by @keenthemes...</a>
-				</div>
-				<!-- END TWITTER BLOCK -->
-
-				<!-- BEGIN BOTTOM CONTACTS -->
-				<div class="col-md-3 col-sm-6 pre-footer-col">
-					<h2>Our Contacts</h2>
-					<address class="margin-bottom-40">
-						35, Lorem Lis Street, Park Ave<br> California, US<br>
-						Phone: 300 323 3456<br> Fax: 300 323 1456<br> Email: <a
-							href="mailto:info@metronic.com">info@metronic.com</a><br>
-						Skype: <a href="skype:metronic">metronic</a>
-					</address>
-				</div>
-				<!-- END BOTTOM CONTACTS -->
-			</div>
-			<hr>
-			<div class="row">
-				<!-- BEGIN SOCIAL ICONS -->
-				<div class="col-md-6 col-sm-6">
-					<ul class="social-icons">
-						<li><a class="rss" data-original-title="rss" href="#"></a></li>
-						<li><a class="facebook" data-original-title="facebook"
-							href="#"></a></li>
-						<li><a class="twitter" data-original-title="twitter" href="#"></a></li>
-						<li><a class="googleplus" data-original-title="googleplus"
-							href="#"></a></li>
-						<li><a class="linkedin" data-original-title="linkedin"
-							href="#"></a></li>
-						<li><a class="youtube" data-original-title="youtube" href="#"></a></li>
-						<li><a class="vimeo" data-original-title="vimeo" href="#"></a></li>
-						<li><a class="skype" data-original-title="skype" href="#"></a></li>
-					</ul>
-				</div>
-				<!-- END SOCIAL ICONS -->
-				<!-- BEGIN NEWLETTER -->
-				<div class="col-md-6 col-sm-6">
-					<div class="pre-footer-subscribe-box pull-right">
-						<h2>Newsletter</h2>
-						<form action="#">
-							<div class="input-group">
-								<input type="text" placeholder="youremail@mail.com"
-									class="form-control"> <span class="input-group-btn">
-									<button class="btn btn-primary" type="submit">Subscribe</button>
-								</span>
-							</div>
-						</form>
-					</div>
-				</div>
-				<!-- END NEWLETTER -->
-			</div>
-		</div>
-	</div>
-	<!-- END PRE-FOOTER -->
 
 	<!-- BEGIN FOOTER -->
 	<div class="footer">
@@ -874,22 +822,7 @@
 				<!-- BEGIN PAYMENTS -->
 				<div class="col-md-6 col-sm-6">
 					<ul class="list-unstyled list-inline pull-right">
-						<li><img
-							src="../../assets/frontend/layout/img/payments/western-union.jpg"
-							alt="We accept Western Union" title="We accept Western Union"></li>
-						<li><img
-							src="../../assets/frontend/layout/img/payments/american-express.jpg"
-							alt="We accept American Express"
-							title="We accept American Express"></li>
-						<li><img
-							src="../../assets/frontend/layout/img/payments/MasterCard.jpg"
-							alt="We accept MasterCard" title="We accept MasterCard"></li>
-						<li><img
-							src="../../assets/frontend/layout/img/payments/PayPal.jpg"
-							alt="We accept PayPal" title="We accept PayPal"></li>
-						<li><img
-							src="../../assets/frontend/layout/img/payments/visa.jpg"
-							alt="We accept Visa" title="We accept Visa"></li>
+
 					</ul>
 				</div>
 				<!-- END PAYMENTS -->
@@ -970,48 +903,63 @@
 	<!--[if lt IE 9]>
     <script src="../../assets/global/plugins/respond.min.js"></script>  
     <![endif]-->
-	<script src="jquery.min.js" type="text/javascript"></script>
-	<script src="jquery-migrate.min.js" type="text/javascript"></script>
-	<script src="bootstrap.min.js" type="text/javascript"></script>
-	<script src="back-to-top.js" type="text/javascript"></script>
-	<script src="jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery.min.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery-migrate.min.js"
+		type="text/javascript"></script>
+	<script src="resources/js/vendor/bootstrap.min.js"
+		type="text/javascript"></script>
+	<script src="resources/js/back-to-top.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery.slimscroll.min.js"
+		type="text/javascript"></script>
 	<!-- END CORE PLUGINS -->
 
 	<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
-	<script src="jquery.fancybox.pack.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery.fancybox.pack.js"
+		type="text/javascript"></script>
 	<!-- pop up -->
-	<script src="owl.carousel.min.js" type="text/javascript"></script>
+	<script src="resources/js/owl.carousel.min.js" type="text/javascript"></script>
 	<!-- slider for products -->
-	<script src='jquery.zoom.min.js' type="text/javascript"></script>
+	<script src='resources/js/vendor/jquery.zoom.min.js'
+		type="text/javascript"></script>
 	<!-- product zoom -->
-	<script src="bootstrap.touchspin.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/bootstrap.touchspin.js"
+		type="text/javascript"></script>
 	<!-- Quantity -->
-	<script src="jquery.uniform.min.js" type="text/javascript"></script>
-	<script src="jquery.rateit.js" type="text/javascript"></script>
-	<script src="jquery-ui.js" type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery.uniform.min.js"
+		type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery.rateit.js"
+		type="text/javascript"></script>
+	<script src="resources/js/vendor/jquery-ui.js" type="text/javascript"></script>
 	<!-- for slider-range -->
 
-	<script src="layout.js" type="text/javascript"></script>
+	<script src="resources/js/layout.js" type="text/javascript"></script>
 	<script type="text/javascript">
-        jQuery(document).ready(function() {
-            Layout.init();    
-            Layout.initOWL();
-            Layout.initTwitter();
-            Layout.initImageZoom();
-            Layout.initTouchspin();
-            Layout.initUniform();
-            Layout.initSliderRange();
-        });
-    </script>
+		jQuery(document).ready(function() {
+			Layout.init();
+			Layout.initOWL();
+			Layout.initTwitter();
+			Layout.initImageZoom();
+			Layout.initTouchspin();
+			Layout.initUniform();
+			Layout.initSliderRange();
+		});
+	</script>
 	<!-- END PAGE LEVEL JAVASCRIPTS -->
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-37564768-1', 'keenthemes.com');
-  ga('send', 'pageview');
-</script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-37564768-1', 'keenthemes.com');
+		ga('send', 'pageview');
+	</script>
 </body>
 
 <!-- END BODY -->
